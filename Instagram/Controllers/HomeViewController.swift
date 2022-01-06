@@ -11,15 +11,32 @@ class HomeViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-                // Do any additional setup after loading the view.
+                
+        initViews()
+        
     }
     
-    
-
-
-    @IBAction func LogOutTapped(_ sender: Any) {
-        sceneDelegate().callSignInViewController()
+    func initViews() {
+        addBarItemForNavigation()
     }
     
+    func addBarItemForNavigation() {
+        let camera = UIImage(named: "ic_camera")
+        let send = UIImage(named: "ic_send")
+        
+        navigationItem.leftBarButtonItem = UIBarButtonItem(image: camera, style: .plain, target: self, action: #selector(leftTapped))
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: send, style: .plain, target: self, action: #selector(rightTapped))
+        
+        title = "Instagram"
+    }
+
+    @objc func leftTapped() {
+        
+    }
+    
+    @objc func rightTapped() {
+        
+    }
 
 }

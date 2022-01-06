@@ -21,8 +21,8 @@ class SignInViewController: BaseViewController {
     
     @IBAction func onSignedUp(_ sender: Any) {
         let vc = SignUpViewController(nibName: "SignUpViewController", bundle: nil)
-        let nc = UINavigationController(rootViewController: vc)
-        self.present(nc, animated: true, completion: nil)
+        
+        self.present(vc, animated: true, completion: nil)
     }
     
 }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98488D3D27870E6E00376B0B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98488D3C27870E6E00376B0B /* BaseViewController.swift */; };
+		98488D4027870EB000376B0B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98488D3E27870EB000376B0B /* HomeViewController.swift */; };
+		98488D4127870EB000376B0B /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98488D3F27870EB000376B0B /* HomeViewController.xib */; };
 		986DCB40278392D5002CB847 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986DCB3F278392D5002CB847 /* AppDelegate.swift */; };
 		986DCB42278392D5002CB847 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986DCB41278392D5002CB847 /* SceneDelegate.swift */; };
 		986DCB44278392D5002CB847 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986DCB43278392D5002CB847 /* ViewController.swift */; };
@@ -20,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		98488D3C27870E6E00376B0B /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		98488D3E27870EB000376B0B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		98488D3F27870EB000376B0B /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		986DCB3C278392D5002CB847 /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		986DCB3F278392D5002CB847 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		986DCB41278392D5002CB847 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,10 +82,13 @@
 		986DCB53278392F2002CB847 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				98488D3C27870E6E00376B0B /* BaseViewController.swift */,
 				986DCB5427839336002CB847 /* SignInViewController.swift */,
 				986DCB5527839336002CB847 /* SignInViewController.xib */,
 				986DCB582783934A002CB847 /* SignUpViewController.swift */,
 				986DCB592783934A002CB847 /* SignUpViewController.xib */,
+				98488D3E27870EB000376B0B /* HomeViewController.swift */,
+				98488D3F27870EB000376B0B /* HomeViewController.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -158,6 +167,7 @@
 				986DCB4C278392D9002CB847 /* LaunchScreen.storyboard in Resources */,
 				986DCB49278392D9002CB847 /* Assets.xcassets in Resources */,
 				986DCB47278392D5002CB847 /* Main.storyboard in Resources */,
+				98488D4127870EB000376B0B /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +183,8 @@
 				986DCB40278392D5002CB847 /* AppDelegate.swift in Sources */,
 				986DCB42278392D5002CB847 /* SceneDelegate.swift in Sources */,
 				986DCB5A2783934A002CB847 /* SignUpViewController.swift in Sources */,
+				98488D4027870EB000376B0B /* HomeViewController.swift in Sources */,
+				98488D3D27870E6E00376B0B /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

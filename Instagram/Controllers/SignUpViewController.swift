@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SignUpViewController: UIViewController {
+class SignUpViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,6 +16,7 @@ class SignUpViewController: UIViewController {
     }
     
     @IBAction func onSignedUp(_ sender: Any) {
+        sceneDelegate().callHomeViewController()
     }
     
     @IBAction func onSignedIn(_ sender: Any) {
